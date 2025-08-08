@@ -94,7 +94,7 @@ erDiagram
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/jamessandy/protolabs_dfm_analysis.git
    cd protolabs_dfm_analysis
    ```
 
