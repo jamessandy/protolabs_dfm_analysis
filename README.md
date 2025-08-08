@@ -128,6 +128,5 @@ To build an effective solution, here are some of my key  operated under a few ke
 The specific formula for unreachability  length / (radius * 2) is a business rule. The data contains lengths and radii, but it doesn't tell me how to combine them to determine if a hole is a problem.
 I also assumed that values 10 (warning) and 40 (error) are defined externally, and there is nothing in the raw data that would suggest these numbers are important.
 
-## Challenges
-The most challenging part of this test was how the holes' data was stored as a JSON string within the dataframe, handling cases where it was empty or bad, and then iterating through the list of hole objects for each part required robust  error handling to prevent the pipeline from failing on a single bad entry.
+
 
